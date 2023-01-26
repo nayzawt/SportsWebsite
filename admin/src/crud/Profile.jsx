@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
+
 import Sidebar from '../components/sidebar/Sidebar'
 import CrudHome from './component/pages/CrudHome'
 import '../crud/profile.scss'
