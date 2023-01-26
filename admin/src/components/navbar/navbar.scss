@@ -1,23 +1,47 @@
 .navbar {
-    height: 50px;
+  
     border-bottom: 0.5px solid rgb(231, 228, 228);
     display: flex;
     align-items: center;
     font-size: 14px;
     color: #555;
+    padding: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    .top {
+      width: 210px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
   
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: #6439ff;
+      }
+    }
+
     .wrapper {
       width: 100%;
-      padding: 20px;
+      
+
       display: flex;
       align-items: center;
       justify-content: space-between;
-  
+      
+
+      .inner {
+        width: 81%;
+        display: flex;
+        justify-content: space-between;
+      }
       .search {
         display: flex;
         align-items: center;
-        border: 0.5px solid lightgray;
-        
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 6px;
         padding: 3px;
   
         input {
@@ -42,8 +66,9 @@
           margin-right: 20px;
           position: relative;
   
-          .icon {
+          .second-icon {
             font-size: 20px;
+            color: #6439ff;
           }
   
           .avatar {

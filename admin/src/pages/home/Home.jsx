@@ -1,21 +1,27 @@
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import "./home.scss";
+import Profile from "../../crud/component/profile/Profile";
+
 
 
 
 const Home = () => {
+  
   return (
-    <div className="home">
+    <div>
+      <Navbar />
+      <div className="home">
       <Sidebar />
       <div className="homeContainer">
-        <Navbar />
+        
 
         <div className="listContainer">
           <div className="listTitle">Latest Transactions</div>
-          
+         
         </div>
       </div>
+    </div>
     </div>
   );
 };

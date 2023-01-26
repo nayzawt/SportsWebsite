@@ -1,9 +1,13 @@
+
+
+
 .home {
     display: flex;
 
     
     .homeContainer {
       flex: 6;
+      background-color: #f2f7f8;
   
       .widgets,
       .charts {

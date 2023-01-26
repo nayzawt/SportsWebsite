@@ -3,55 +3,59 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import StoreIcon from "@mui/icons-material/Store";
 import SettingsApplicationsIcon from "@mui/icons-material/SettingsApplications";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
-import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import DropdownItem from "./DropdownItem";
  import SidebarSetting from "./SidebarSetting";
 
 
 
-
  const SidebarData = [
     {
         name: 'Dashboard',
-        icon: <DashboardIcon className="icon" />,
-        path:'/'
+        icon: <DashboardIcon  />,
+        path:'/',
+        setField: false
         
     },
     {
         name: 'Users',
-        icon: <PersonOutlineIcon className="icon" />,
-        path:'/users'
-        
+        icon: <PersonOutlineIcon  />,
+        path:'/users',
+        setField: false
     },
     {
-        name: 'Products',
-        icon: <StoreIcon className="icon" />,
-        path:'/products'
-        
+        name: 'Posts',
+        icon: <StoreIcon  />,
+        path:'/posts',
+        setField: false
     },
     {
-        name: 'Notification',
-        icon: <NotificationsNoneIcon className="icon" />,
-        path:'/noti'
+        name: 'Comments',
+        icon: <ChatBubbleOutlineOutlinedIcon  />,
+        path:'/comment',
+        setField: false
         
     },
     {
         name: 'Setting',
-        icon: <SettingsApplicationsIcon className="icon" />,
-        path:'/setting'
+        icon: <SettingsApplicationsIcon  />,
+        setField: true,
+        path: '/users'
         
     },
     {
         name: 'Profile',
-        icon: <AccountCircleOutlinedIcon className="icon" />,
-        path:'/profile'
+        icon: <AccountCircleOutlinedIcon  />,
+        path:'/profile',
+        setField: false
         
     },
     {
         name: 'Logout',
-        icon: <ExitToAppIcon className="icon" />,
-        path:'/logout'
+        icon: <ExitToAppIcon  />,
+        path:'/logout',
+        setField: false
         
     },
 

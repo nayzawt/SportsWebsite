@@ -1,0 +1,80 @@
+
+  .profile {
+    display: flex;
+  }
+
+  .profileConatiner {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+
+  .profile-inner {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    padding: 30px;
+    width: 50%;
+    border-radius: 7px;
+  }
+
+  .profile-male {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .male {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .male label {
+    font-size: 17px;
+    font-weight: 600;
+    color: #888;
+    margin-right: 10px;
+  }
+
+  .male input {
+    cursor: pointer;
+  }
+
+  .profile-second {
+    width: 100%;
+  }
+
+  .inner-second {
+    width: 100%;
+  }
+
+  .profile-img {
+    width: 100px;
+    padding: 40px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    background-color: #ece8ff;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+
+  .profile-img p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #888;
+  }
+
+  
+
+  .profile-name input {
+    padding: 10px 15px;
+    width: 95%;
+    font-size: 17px;
+    font-weight: 600;
+    color: #888;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+
+  }
